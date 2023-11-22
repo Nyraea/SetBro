@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "247012153281",
+    "project_id": "setbro-a1a59",
+    "storage_bucket": "setbro-a1a59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247012153281:android:3290a7a56a82eccf2d8140",
+        "android_client_info": {
+          "package_name": "com.example.setbro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWQZjTXuxSEbABVW4_HMYtPO49LRZun6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

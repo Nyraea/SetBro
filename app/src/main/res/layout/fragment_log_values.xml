@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/log_values"
+    tools:context=".LogValues">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".LogValues">
+
+        <ImageView
+            android:id="@+id/app_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="125dp"
+            android:contentDescription="@string/app_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/app_title" />
+
+        <ImageView
+            android:id="@+id/question_bg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="125dp"
+            android:contentDescription="@string/question_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/question_bg" />
+
+        <TextView
+            android:id="@+id/daily_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/daily_vol"
+            android:fontFamily="@font/potta_one"
+            android:textColor="@color/white"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="150dp"
+            android:contentDescription="@string/volume_range"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title2" />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="50dp"
+            android:progressTint="#FFFFFF"
+            android:thumbTint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title2" />
+
+        <TextView
+            android:id="@+id/q1_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q1_value"
+            android:fontFamily="@font/potta_one"
+            android:textColor="@color/white"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="150dp"
+            android:contentDescription="@string/q1_value"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title2" />
+
+        <ImageView
+            android:id="@+id/question_bg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="125dp"
+            android:contentDescription="@string/question_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/question_bg" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="255dp"
+            android:layout_marginEnd="50dp"
+            android:progressTint="#FFFFFF"
+            android:thumbTint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title2" />
+
+        <TextView
+            android:id="@+id/q2_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2_value"
+            android:fontFamily="@font/potta_one"
+            android:textColor="@color/white"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginEnd="150dp"
+            android:contentDescription="@string/q2_value"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title2" />
+
+        <TextView
+            android:id="@+id/weekly_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weekly_vol"
+            android:fontFamily="@font/potta_one"
+            android:textColor="@color/white"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginEnd="150dp"
+            android:contentDescription="@string/volume_range"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title2" />
+
+        <ImageView
+            android:id="@+id/question_bg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginEnd="125dp"
+            android:contentDescription="@string/question_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/question_bg" />
+
+        <TextView
+            android:id="@+id/mmc_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/session_mmc"
+            android:fontFamily="@font/potta_one"
+            android:textColor="@color/white"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="150dp"
+            android:contentDescription="@string/volume_range"             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title2" />
+
+        <SeekBar
+            android:id="@+id/seekBar3"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="415dp"
+            android:layout_marginEnd="50dp"
+            android:progress="50"
+            android:progressTint="#FFFFFF"
+            android:thumbTint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title2" />
+
+        <TextView
+            android:id="@+id/q3_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q3_value"
+            android:fontFamily="@font/potta_one"
+            android:textColor="@color/white"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginEnd="150dp"
+            android:contentDescription="@string/q3_value"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title2" />
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginEnd="125dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/back_btn"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            android:src="@drawable/back_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

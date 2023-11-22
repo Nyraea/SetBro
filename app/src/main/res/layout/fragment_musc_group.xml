@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/musc_group"
+    tools:context=".MuscleGroups">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="125dp"
+            android:contentDescription="@string/app_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/app_title" />
+
+        <ImageButton
+            android:id="@+id/chest_panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="220dp"
+            android:contentDescription="@string/chest_panel"
+            android:src="@drawable/chest_panel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title" />
+
+        <TextView
+            android:id="@+id/chest_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="220dp"
+            android:contentDescription="@string/volume_range"
+            android:fontFamily="@font/potta_one"
+            android:text="@string/mv"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/lats_panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="@string/lats_panel"
+            android:src="@drawable/lats_panel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title" />
+
+        <TextView
+            android:id="@+id/lats_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="@string/volume_range"
+            android:fontFamily="@font/potta_one"
+            android:text="@string/mav"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/biceps_panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="220dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/biceps_panel"
+            android:src="@drawable/biceps_panel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/biceps_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginEnd="220dp"
+            android:contentDescription="@string/volume_range"
+            android:fontFamily="@font/potta_one"
+            android:text="@string/mv"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title"
+            tools:ignore="TextContrastCheck,VisualLintOverlap" />
+
+        <ImageButton
+            android:id="@+id/triceps_panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="30dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/triceps_panel"
+            android:src="@drawable/triceps_panel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title" />
+
+        <TextView
+            android:id="@+id/triceps_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="@string/volume_range"
+            android:fontFamily="@font/potta_one"
+            android:text="@string/mrv"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title"
+            tools:ignore="TextContrastCheck,VisualLintOverlap" />
+
+        <ImageButton
+            android:id="@+id/delts_panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="220dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/delts_panel"
+            android:src="@drawable/delts_panel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title" />
+
+        <TextView
+            android:id="@+id/delts_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginEnd="220dp"
+            android:contentDescription="@string/volume_range"
+            android:fontFamily="@font/potta_one"
+            android:text="@string/mev"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/quads_panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="30dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/quads_panel"
+            android:src="@drawable/quads_panel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title"/>
+
+        <TextView
+            android:id="@+id/quads_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="@string/volume_range"
+            android:fontFamily="@font/potta_one"
+            android:text="@string/mv"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title"
+            tools:ignore="TextContrastCheck" />
+
+
+        <ImageButton
+            android:id="@+id/abs_panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="220dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/abs_panel"
+            android:src="@drawable/abs_panel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title" />
+
+        <TextView
+            android:id="@+id/abs_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="590dp"
+            android:layout_marginEnd="220dp"
+            android:contentDescription="@string/volume_range"
+            android:fontFamily="@font/potta_one"
+            android:text="@string/mv"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title"
+            tools:ignore="TextContrastCheck,VisualLintOverlap" />
+
+        <ImageButton
+            android:id="@+id/calves_panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="30dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/calves_panel"
+            android:src="@drawable/calves_panel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title"/>
+
+        <TextView
+            android:id="@+id/calves_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="590dp"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="@string/volume_range"
+            android:fontFamily="@font/potta_one"
+            android:text="@string/mv"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_title"
+            tools:ignore="TextContrastCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

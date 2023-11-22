@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">SetBro</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="musc_group_label">Muscle Groups</string>
+    <string name="log_values_label">Log Values</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="app_title">App Title</string>
+    <string name="chest_panel">Chest Panel</string>
+    <string name="chest_pic">Chest Picture</string>
+    <string name="lats_panel">Lats Panel</string>
+    <string name="lats_pic">Lats Picture</string>
+    <string name="biceps_panel">Biceps Panel</string>
+    <string name="biceps_pic">Biceps Panel</string>
+    <string name="triceps_panel">Triceps Panel</string>
+    <string name="triceps_pic">Triceps Picture</string>
+    <string name="delts_panel">Delts Panel</string>
+    <string name="delts_pic">Delts Picture</string>
+    <string name="quads_panel">Quads Panel</string>
+    <string name="quads_pic">Quads Picture</string>
+    <string name="calves_panel">Calves Panel</string>
+    <string name="calves_pic">Calves Picture</string>
+    <string name="abs_panel">Abs Panel</string>
+    <string name="abs_pic">Abs Picture</string>
+    <string name="fragment_text">Insert elements here</string>
+    <string name="arc_gauge">Arc Gauge</string>
+    <string name="back_btn">Back Button</string>
+    <string name="question_bg">Question Background</string>
+    <string name="volume_range">Volume Range Indicator</string>
+    <string name="mv">MV</string>
+    <string name="mev">MEV</string>
+    <string name="mav">MAV</string>
+    <string name="mrv">MRV</string>
+    <string name="daily_vol">Max Daily Volume</string>
+    <string name="weekly_vol">Weekly Volume</string>
+    <string name="session_mmc">Session MMC</string>
+    <string name="q1_value">7</string>
+    <string name="q2_value">14</string>
+    <string name="q3_value">Great</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
