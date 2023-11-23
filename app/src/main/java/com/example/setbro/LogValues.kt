@@ -34,7 +34,7 @@ class LogValues : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.backBtn.setOnClickListener {
-            findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
+            findNavController().navigate(R.id.action_LogValues_to_MuscGroup)
 
         }
     }

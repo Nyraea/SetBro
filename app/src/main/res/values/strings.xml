@@ -33,6 +33,7 @@
     <string name="mev">MEV</string>
     <string name="mav">MAV</string>
     <string name="mrv">MRV</string>
+    <string name ="edit">Edit Log</string>
     <string name="daily_vol">Max Daily Volume</string>
     <string name="weekly_vol">Weekly Volume</string>
     <string name="session_mmc">Session MMC</string>

@@ -3,19 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/MuscGroup">
+    app:startDestination="@id/Home">
 
     <fragment
         android:id="@+id/MuscGroup"
         android:name="com.example.setbro.MuscleGroups"
         android:label="@string/musc_group_label"
         tools:layout="@layout/fragment_musc_group">
-
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            android:id="@+id/action_MuscGroup_to_LogValues"
             app:destination="@id/LogValues"
+            app:popUpTo="@id/LogValues" />
+        <action
+            android:id="@+id/action_MuscGroup_to_Home"
+            app:destination="@id/Home"
             app:enterAnim="@anim/nav_default_enter_anim"
             app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpTo="@id/Home"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
@@ -24,12 +28,12 @@
         android:name="com.example.setbro.LogValues"
         android:label="@string/log_values_label"
         tools:layout="@layout/fragment_log_values">
-
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            android:id="@+id/action_LogValues_to_MuscGroup"
             app:destination="@id/MuscGroup"
             app:enterAnim="@anim/nav_default_enter_anim"
             app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpTo="@id/MuscGroup"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
@@ -37,5 +41,10 @@
         android:id="@+id/Home"
         android:name="com.example.setbro.Home"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_Home_to_MuscGroup"
+            app:destination="@id/MuscGroup"
+            app:popUpTo="@id/MuscGroup" />
+    </fragment>
 </navigation>

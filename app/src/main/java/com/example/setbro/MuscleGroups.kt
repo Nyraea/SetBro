@@ -33,28 +33,28 @@ class MuscleGroups : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.chestPanel.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_MuscGroup_to_LogValues)
         }
         binding.latsPanel.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_MuscGroup_to_LogValues)
         }
         binding.bicepsPanel.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_MuscGroup_to_LogValues)
         }
         binding.tricepsPanel.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_MuscGroup_to_LogValues)
         }
         binding.deltsPanel.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_MuscGroup_to_LogValues)
         }
         binding.quadsPanel.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_MuscGroup_to_LogValues)
         }
         binding.absPanel.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_MuscGroup_to_LogValues)
         }
         binding.calvesPanel.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_MuscGroup_to_LogValues)
         }
     }
 
