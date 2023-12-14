@@ -8,6 +8,10 @@ import com.ekn.gruzer.gaugelibrary.*
 import android.widget.ImageButton
 import androidx.fragment.app.*
 import android.util.Log
+import com.google.firebase.analytics.FirebaseAnalytics
+import com.jjoe64.graphview.GraphView
+import com.jjoe64.graphview.series.DataPoint
+import com.jjoe64.graphview.series.LineGraphSeries
 
 class MainActivity : AppCompatActivity() {
 

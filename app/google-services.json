@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "247012153281",
-    "project_id": "setbro-a1a59",
-    "storage_bucket": "setbro-a1a59.appspot.com"
+    "project_number": "825704247083",
+    "firebase_url": "https://setbro-64333-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "setbro-64333",
+    "storage_bucket": "setbro-64333.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:247012153281:android:3290a7a56a82eccf2d8140",
+        "mobilesdk_app_id": "1:825704247083:android:f0e7f3c63cda1c666f9f6e",
         "android_client_info": {
           "package_name": "com.example.setbro"
         }
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDWQZjTXuxSEbABVW4_HMYtPO49LRZun6o"
+          "current_key": "AIzaSyDMqSRr2cyJ5CO_iTfJepuYkW--t7m2UN8"
         }
       ],
       "services": {
