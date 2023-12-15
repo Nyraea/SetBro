@@ -26,8 +26,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:datePickerMode="calendar"
+        android:headerBackground="#000000"
         android:scaleX="0.75"
         android:scaleY="0.75"
+        android:yearListSelectorColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
